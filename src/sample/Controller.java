@@ -10,6 +10,8 @@ public class Controller implements Serializable{
 
     private String fone;
 
+    private String email;
+
 
     public String getNome() {
         return nome;
@@ -34,4 +36,13 @@ public class Controller implements Serializable{
     public void setFone(String fone) {
         this.fone = fone;
     }
+
+
+  public String getEmail() {
+    return email;
+  }
+
+  public void setEmail(String email) {
+    this.email = email;
+  }
 }
